@@ -1,0 +1,285 @@
+
+@media only screen and (max-width: 767px) {
+    body {
+      background-image: url('image/Mobileviewbackground.png'), url('image/background-2.png') !important;
+      background-position: 0em 0em, 0px 59em !important; /* position the background images */
+      background-size: 900px 900px, 1690px 1280px !important; /* set image 1 to contain and image 2 to cover */
+    }
+  
+    .phone {
+        position: absolute;
+        z-index: 15;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 80vw;
+        width: auto;
+        top: 300vw;
+        left: 100px;
+        scale: 140%;
+        background-color: transparent;
+        border-color: transparent;
+      }
+
+      .super-delicious {
+        display: none;
+      }
+      
+      .app-description {
+        position: absolute;
+        width:80%;
+        z-index: 16;
+        top: 400vw;
+        left: -20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: left;
+        color: #ffffff;
+        font-size: xx-large;
+        font-family: Century Gothic;
+        height: 300px;
+      }
+
+      .app-description h1 {
+        font-size: large;
+        z-index: 15;
+        display: flex;
+        position: absolute;
+        top: 10vw;
+        left: 40px;
+      }
+
+      .app-description span {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center !important;
+        position: relative !important;
+        font-size: large !important;
+        top: 1px !important;
+        left: -50px !important;
+        line-height: 15px !important;
+        width: 200px !important;
+      }
+
+ 
+      .download-app {
+        position: absolute;
+        cursor: url('image/pointer.png'), auto;
+        top: 80vw;
+        left: 20px;
+      }
+  
+         
+      button {
+        cursor: url('image/pointer.png'), auto;
+      }
+      
+      
+      header {
+        z-index: 10;
+        position: absolute; 
+        top: -100vw;
+        width: 100%;
+      }
+      
+      .slider hr {
+        width: 80%;
+        background-color: #ffffff;
+      }
+
+      .slider
+      {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+        top: 1px;
+        left: -400px;
+        width: 100%;
+        height: 300px;
+        background-color: #ffae17;
+        opacity: 90%;
+        border-radius: 10%;
+      }
+
+      .slider a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px;
+        font-family: Century Gothic;
+        
+      }
+
+      
+.slider.active {
+    left: 0;
+}
+
+      .menu-button {
+        position: absolute;
+        z-index: 22;
+        top: 1vw;
+        left: 2vw;
+        height: 60px;
+        width: 50px;
+        padding: 10px;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      
+      .ring-big {
+ display: none;
+      }
+      
+      .ring-small {
+        position: absolute;
+        z-index: 5;
+        mix-blend-mode: overlay;
+        scale: 60%;  
+        display: inline-block;
+        top: -10vw;
+        left: -10vw;
+      }
+      
+      .order-button {
+        font-family: century gothic;
+        font-weight: bold;
+        background-color: #fd7801;
+        color: rgb(255, 255, 255);
+        top: 200vw;
+        left: 30vw;
+        padding: 10px 20px;
+        border: none;
+        position: absolute;
+        display: inline-block;
+        text-align: right;
+        z-index: 7;
+        border-radius: 20px;
+        scale: 110%;
+      }
+      
+      .order-button:hover {
+        background-color: #ff9030;
+        color: white;
+        scale: 190%;
+      }
+      
+      
+      .dishes-wrapper {
+        height:300vw;
+        width: 300vw;
+        position: absolute;
+        z-index: 12;
+        display: inline-block;
+        right: -205vw;
+        top: -60vw;
+      }
+      
+      .dishes-wrapper img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      
+      .best-sellers {
+      display: none;
+      }
+      
+      .letters {
+        display: inline-block;
+        font-size: 4vw;
+        font-family: crusty;
+        margin-right: 0px;
+      }
+      
+      .tagline {
+        font-size: 30px;
+        font-family: crusty;
+        position: absolute;
+        z-index: 10;
+        text-align: center;
+        top: 125vw;
+        left: 15vw;
+        color: #ffffff;
+        padding: 0px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      
+      .tagline::first-letter {
+       font-size: 80px;
+       color:#fd7801;
+      }
+      
+      
+      .super {
+        font-family: crusty;
+        color: #ffffff;
+        margin-right: 2px;
+        transform: scale(0.5);
+        margin-top: 0px;
+        position: relative;
+        left: 3vw;
+      }
+      
+      .foods {
+        color: #fd7801;
+        margin-top: 0px;
+      }
+      
+      .circles-container {
+        position: absolute;
+        left: -3vw;
+        top: 22vw;
+        z-index: 5;
+        display: grid;
+        grid-template-rows: repeat(5, 2vw);
+        grid-template-columns: repeat(5, 2vw);
+        grid-gap: 1vw;
+        scale: 30%;
+        transform: rotate(45deg);
+      }
+      
+      .circles-container-2 {
+        position: absolute;
+        left: 15vw;
+        top: 0vw;
+        z-index: 5;
+        display: grid;
+        grid-template-rows: repeat(5, 2vw);
+        grid-template-columns: repeat(5, 2vw);
+        grid-gap: 1vw;
+        scale: 50%;
+        transform: rotate(-75deg);
+        opacity: 50%;
+      }
+      
+      .circles-grid {
+        background-color: #ffd800;
+        border-radius: 100%;
+        scale: 50%;
+      }
+      
+      
+      .logo {
+        position: absolute;
+        display: inline-block;
+        left: -9vw;
+        top: -47vw;
+        z-index: 8;
+        scale: 20%;
+      }
+
+      footer {
+display: none !important;
+      }
+
+  }

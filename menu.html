@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="mobile-view.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
+    <title>Order Now!</title>
+</head>
+
+<header>
+
+  <nav>
+    <div id="nav-menu">
+
+        <ul id="curve-list" !important>
+            <li><a href="index.html"><i class="fa-solid fa-house fa-xl" style="color: #24385c;"></i></a></li> 
+            <hr>
+            <li><a href="menu.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #24385c;"></i></a></li>
+            <hr>
+            <li><a href="#"><i class="fa-solid fa-money-check fa-xl" style="color: #24385c;"></i></a></li>
+            <hr>
+            <li><a href="contact.html"><i class="fa-sharp fa-solid fa-address-book fa-xl" style="color: #24385c;"></i></a></li>
+            <hr>
+            <li><a href="about.html"><i class="fa-solid fa-book fa-xl" style="color: #24385c;"></i></a></li>
+        </ul>
+        
+        <div class="circle-container" !important>
+            <img src="image/circle-navbar.svg" alt="" !important>
+            </div>
+
+    </div>
+</nav>
+
+    <!-- Menu Bar for Mobile view-->
+    <div class="slider-container">
+      <div>
+          <img class="menu-button" src="image/menu-button.png" alt="">
+      </div>
+
+          <div class="slider">
+              <a href="#">HOME</a>
+              <hr>
+               <a href="#">ORDER</a>
+               <hr>
+              <a href="#">PROMOS</a>
+               <hr>
+              <a href="#">CONTACT</a>
+          </div>
+  </div>
+  <!-- - - - -  - - - - - - - --->
+</header>
+  <body>
+
+    
+  <div class="search-container col-lg-12">
+    <div class="input-group mb-3 col-3">
+      <input type="text" class="form-control" placeholder="Search...">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <div class="logo"> <img class="logo123" src="image/Logo.png" alt="" onclick="rotateNav()"> </div>
+
+    <div class="container col-12  justify-content-around" style="background-image: url('image/texture-02.png'); background-size: cover; background-position: center top; background-blend-mode: overlay;">
+
+      <div class="sidebar">
+        <div class="flex-column container">
+          <div class="categories">
+            <h5>Categories</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Lunch</a></li>
+              <li><a href="#">Dinner</a></li>
+              <li><a href="#">Breakfast</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">Drinks</a></li>
+            </ul>
+          </div>
+          <hr style="border: 0.2px rgb(254, 203, 0) solid; width: 120%;"> <br>
+          <div class="cuisines categories-container">
+            <h5>Cuisines</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Asian Foods</a></li>
+              <li><a href="#">Filipino Foods</a></li>
+              <li><a href="#">American Foods</a></li>
+              <li><a href="#">Italian Foods</a></li>
+              <li><a href="#">UK Foods</a></li>
+              <li><a href="#">Mexican Foods</a></li>
+            </ul>
+          </div>
+
+          <hr style="border: 0.2px rgb(254, 203, 0) solid; width: 120%;"> <br>
+
+          <h5>Rating</h5>
+          <ul class="list-unstyled">
+            <li>
+              <input type="checkbox" id="star5">
+              <label for="star5" class="rating-label">
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="star4">
+              <label for="star4" class="rating-label">
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="star3">
+              <label for="star3" class="rating-label">
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="star2">
+              <label for="star2" class="rating-label">
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="star1">
+              <label for="star1" class="rating-label">
+                <i class="fas fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+                <i class="far fa-star" style="color: #ffbb00;"></i>
+              </label>
+            </li>
+          </ul>
+
+          </div>
+      </div>
+
+
+      
+      <div class="row col-12">
+        <!-- Product 1 -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="title-design">
+          <h5 class="card-title">Pork Adobo</h5>
+          <img src="image/product-cardtop-design.svg" alt="">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://salu-salo.com/wp-content/uploads/2015/04/Pork-Adobo-3.jpg" alt="Product 1">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+            </div>
+          </div>
+          <div class="price-holder">
+          <p class="card-text price-tag">₱99</p>
+          <img src="image/product-cardprice-design.svg" alt="">
+        </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="title-design">
+          <h5 class="card-title">Buffalo Wings</h5>
+          <img src="image/product-cardtop-design.svg" alt="">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://www.foodandwine.com/thmb/YqtSpajmztyHG1tWz3VlGj6MT_o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Buffalo-Wings-Recipe-FT-BLOG1222-26e07fdb9aec4afe8d4bc39ea331c753.jpg" alt="Product 1">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+            </div>
+          </div>
+          <div class="price-holder">
+          <p class="card-text price-tag">₱199</p>
+          <img src="image/product-cardprice-design.svg" alt="">
+        </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="title-design">
+          <h5 class="card-title">Crispy Pata</h5>
+          <img src="image/product-cardtop-design.svg" alt="">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://www.foxyfolksy.com/wp-content/uploads/2019/12/crispy-pata-recipe.jpg" alt="Product 1">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+            </div>
+          </div>
+          <div class="price-holder">
+          <p class="card-text price-tag">₱299</p>
+          <img src="image/product-cardprice-design.svg" alt="">
+        </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="title-design">
+          <h5 class="card-title">Hawaiian Burger</h5>
+          <img src="image/product-cardtop-design.svg" alt="">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://static.toiimg.com/photo/79693966.cms" alt="Product 1">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+            </div>
+          </div>
+          <div class="price-holder">
+          <p class="card-text price-tag">₱99</p>
+          <img src="image/product-cardprice-design.svg" alt="">
+        </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="title-design">
+          <h5 class="card-title">Bulalo</h5>
+          <img src="image/product-cardtop-design.svg" alt="">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://www.knorr.com/content/dam/unilever/knorr_world/global/photography_and_pictures/bulalo_recipe-80633416-jpg.jpg" alt="Product 1">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+            </div>
+          </div>
+          <div class="price-holder">
+          <p class="card-text price-tag">₱99</p>
+          <img src="image/product-cardprice-design.svg" alt="">
+        </div>
+        </div>
+          <!-- Product 6 -->
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="title-design">
+            <h5 class="card-title">Lomi</h5>
+            <img src="image/product-cardtop-design.svg" alt="">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2013/05/lomi-wide.jpg?ssl=1" alt="Product 1">
+              <div class="card-body">
+                <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+              </div>
+            </div>
+            <div class="price-holder">
+            <p class="card-text price-tag">₱49</p>
+            <img src="image/product-cardprice-design.svg" alt="">
+          </div>
+          </div>
+  <!-- Product 7 -->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Kare-Kare</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://3.bp.blogspot.com/-dVk0gPRPJHw/VKFKj8R4CTI/AAAAAAAAJ0c/02frWuAsaV0/s1600/Kare-Kareng%2BBaka%2Bsa%2BGata.jpg" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱199</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+  </div>
+  </div>
+  <!-- Product 8 -->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Pork Sinigang</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://i0.wp.com/whattoeatph.com/wp-content/uploads/2022/01/DSC_6144.jpg?fit=4000%2C3200&ssl=1" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱149</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+  </div>
+  </div>
+  <!-- Product 9 -->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Lechon Kawali</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://umamidays.com/wp-content/uploads/2022/03/air-fryer-crispy-pork-belly-2.jpg" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱149</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+  </div>
+  </div>
+  <!-- Product 10 -->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Sisig</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top"  src="https://api.lifegetsbetter.ph/uploads/recipes/featured/Red-Sisig.jpg" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱99</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+  </div>
+  </div>
+  <!--Product 11-->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Palabok</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://assets.unileversolutions.com/recipes-v2/110766.jpg" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱49</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+  </div>
+  </div>
+  <!--Product 12-->
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="title-design">
+    <h5 class="card-title">Lechon Belly</h5>
+    <img src="image/product-cardtop-design.svg" alt="">
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.deliveryhero.io/image/fd-ph/LH/h7ad-hero.jpg" alt="Product 1">
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-block">Add to Cart</button>
+      </div>
+    </div>
+    <div class="price-holder">
+    <p class="card-text price-tag">₱399</p>
+    <img src="image/product-cardprice-design.svg" alt="">
+   </div>
+  </div>
+
+  <!--Pagination-->
+<div class="pagination-control">
+  <div class="row justify-content-end">
+    <div class="col-5 justify-content-center ">
+      <nav>
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  </div>
+</div>
+
+</div>
+
+   <!-- Ring Designs /--> 
+<div class="designs-g1">
+      <div class="ring-small"> 
+        <img src="image/Circle Design small.png" alt="">
+      </div>
+ </div>
+
+  <!-- Circle Grid Designs -->                  
+  <div class="circles-container">
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    </div>
+
+  <!-- Circle Grid Designs 2 -->
+  <div class="circles-container-2">
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+    <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div> <div class="circles-grid"></div>
+  </div>
+
+<footer>
+      <div class="footer">
+              <span> Copyright 2023-2024 </span>
+      </div>
+</footer>
+
+                             <script src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"></script>
+                             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+                                 <script src="script.js"></script>
+</body>
+</html>

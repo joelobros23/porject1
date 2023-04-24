@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="css/contact-mobile.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<nav>
+		<div id="nav-menu">
+	
+			<ul id="curve-list" !important>
+				<li><a href="index.html"><i class="fa-solid fa-house fa-xl" style="color: #24385c;"></i></a></li> 
+				<hr>
+				<li><a href="menu.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #24385c;"></i></a></li>
+				<hr>
+				<li><a href="#"><i class="fa-solid fa-money-check fa-xl" style="color: #24385c;"></i></a></li>
+				<hr>
+				<li><a href="contact.html"><i class="fa-sharp fa-solid fa-address-book fa-xl" style="color: #24385c;"></i></a></li>
+				<hr>
+				<li><a href="about.html"><i class="fa-solid fa-book fa-xl" style="color: #24385c;"></i></a></li>
+			</ul>
+			
+			<div class="circle-container" !important>
+				<img src="image/circle-navbar.svg" alt="" !important>
+				</div>
+	
+		</div>
+	</nav>
+	<div class="slider-container">
+        <div>
+            <img class="menu-button" src="image/menu-button.png" alt="">
+        </div>
+
+            <div class="slider">
+                <a href="#">HOME</a>
+                <hr>
+                 <a href="#">ORDER</a>
+                 <hr>
+                <a href="#">PROMOS</a>
+                 <hr>
+                <a href="#">CONTACT</a>
+            </div>  
+    </div>
+
+	<div class="logo"> <img class="logo123" src="image/Logo.png" alt="" onclick="rotateNav()"> </div>
+
+	<div class="container">
+		<form action="submit-form.php" method="POST">
+		  <div class="form-row">
+			<div class="form-group col-md-6">
+
+			  <input type="text" class="form-control" id="inputName" name="name" placeholder="Name">
+			</div>
+			<div class="form-group col-md-6">
+	
+			  <input type="text" class="form-control" id="inputLastname" name="lastname" placeholder="Last Name">
+			</div>
+		  </div>
+		  <div class="form-group">
+
+			<input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+
+			<input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Phone Number">
+		  </div>
+		  <div class="form-group">
+
+			<textarea class="form-control" id="inputMessage" name="message" rows="5" placeholder="Enter your message"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	  </div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>
